@@ -49,6 +49,8 @@ public struct SearchView: View {
                 }, set: {
                     store.send(.view(.searchWordChanged($0)))
                 }
+                
+                
             ),
             placement: .navigationBarDrawer(displayMode: .always)
         )
